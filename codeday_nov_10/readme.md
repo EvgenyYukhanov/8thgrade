@@ -14,13 +14,15 @@ Note:
 Ctrl-A Ctrl-X to disconnect
 ### ampy (Adafruit Micropython Toolkit)
 sudo python3 -m pip install adafruit-ampy
+
 sudo ampy -p /dev/ttyUSB0 -b 115200 ls
+
 sudo ampy -p /dev/ttyUSB0 -b 115200 put main.py
 # Server Side
-ec2
-python3
-Cloud9 (very cool for prototyping)
-KMS (Key Management Service for secrets decryption)
+- ec2
+- python3
+- Cloud9 (very cool for prototyping)
+- KMS (Key Management Service for secrets decryption)
 # Security
 ESP8266 Micropython doesn't support certificates verification, so we are open to MITM attack.
 ## Mitigation
